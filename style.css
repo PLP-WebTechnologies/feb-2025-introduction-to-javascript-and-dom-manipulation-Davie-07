@@ -1,1 +1,41 @@
+/* Style for the HTML document */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #f8f8f8;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#companyDetails {
+  margin: 20px 0;
+}
+#styleButton {
+  padding: 10px;
+  background: lightgrey;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#addButton {
+  margin-top: 20px;
+}
 
